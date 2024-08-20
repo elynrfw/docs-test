@@ -1,0 +1,15 @@
+site_name: RIS Services Documentation
+repo_url: https://github.com/elynrfw/docs-test
+
+nav:
+  - Home: index.md
+  - Policies:
+    - User Agreement: policies/user_agreement/index.md
+  - Scientific Compute Platforms:
+    - Compute1: scientific_compute_platforms/compute1/index.md
+  - Data Storage Platforms:
+    - Storage1: data_storage_platforms/storage1/index.md
+  - Research Applications and Services:
+
+  theme:
+    name: readthedocs
