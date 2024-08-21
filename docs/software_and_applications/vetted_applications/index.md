@@ -7,20 +7,26 @@ any means, and is intended solely as a starting point for new users.
 This page does not include application containers where the user does not want,
 or is forbidden, to put code into a public registry.
 
-> [!WARNING]
+> ### Warning:
+> 
 > The application containers listed on this page have been vetted to start a
 > shell in an interactive job at the time of testing and were confirmed
 > working at the time they were tested. The level of security with
-> non-RIS-hosted images is not guaranteed and has not been tested.\
+> non-RIS-hosted images is not guaranteed and has not been tested.
+> 
 > As such, we recommend to use RIS-hosted Docker images when possible. Please
 > visit *this page* for a list of RIS supported Docker images.
 
-> [!NOTE]
-> To successfully run `bsub` commands on this page, you must already be logged into the Compute Service:\
-> `> ssh ${compute_username}@compute1-client-1.ris.wustl.edu`\
+> ### Note:
+> 
+> To successfully run `bsub` commands on this page, you must already be logged into the Compute Service:
+> 
+> `> ssh ${compute_username}@compute1-client-1.ris.wustl.edu`
+> 
 > If you are not connected to a a Medical School network (WUSM-secure, MSVPN),
 > or the Danforth VPN, you will need to perform port forwarding before
-> accessing a GUI (i.e. accessing a Jupyter notebook or RStudio session).\
+> accessing a GUI (i.e. accessing a Jupyter notebook or RStudio session).
+> 
 > Documentation to forward ports is found *here.*
 
 ## Applications, Packages and Environment Images
