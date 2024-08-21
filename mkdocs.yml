@@ -2,12 +2,4 @@ site_name: RIS Services User Documentation
 repo_url: https://github.com/elynrfw/docs-test
 
 theme:
-  name: material
-
-plugins:
-  - blog
-  - group
-  - offline
-  - search
-  - social
-  - tags
+  name: readthedocs
