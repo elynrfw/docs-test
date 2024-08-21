@@ -7,7 +7,7 @@ any means, and is intended solely as a starting point for new users.
 This page does not include application containers where the user does not want,
 or is forbidden, to put code into a public registry.
 
-> ### Warning:
+> [!WARNING]
 > 
 > The application containers listed on this page have been vetted to start a
 > shell in an interactive job at the time of testing and were confirmed
@@ -17,7 +17,7 @@ or is forbidden, to put code into a public registry.
 > As such, we recommend to use RIS-hosted Docker images when possible. Please
 > visit *this page* for a list of RIS supported Docker images.
 
-> ### Note:
+> [!NOTE]
 > 
 > To successfully run `bsub` commands on this page, you must already be logged into the Compute Service:
 > 
