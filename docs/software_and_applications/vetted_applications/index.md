@@ -2,7 +2,7 @@
 
 This page contains basic information and user-friendly guides to running RIS-vetted
 application containers on compute. This is `not` an inclusive list of usable applications, by
-any means, and is intended solely as a starting point for new users.
+any means, and is intended solely as a starting point for new users. Line added for demonstration.
 
 This page does not include application containers where the user does not want,
 or is forbidden, to put code into a public registry.
