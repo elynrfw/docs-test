@@ -14,7 +14,7 @@ The Research Datacenter is physically located at:
 > 222 S Newstead Ave.
 > St. Louis, MO 63110
 
-<img src="images/datacenter.png" title="Data Center" alt="data-center" width="500px" />
+<img src="images/datacenter.png" title="Data Center" alt="data-center" />
 
 You can take a [virtual tour of the data center](https://kuula.co/share/79Wh6/collection/7lcvK?fs=1&vr=1&sd=1&thumbs=1&chromeless=1&logo=1%22%3E%3C/iframe)
 
@@ -106,7 +106,7 @@ Yes. The "general" and "interactive" job queues are serviced by a set of executi
 ```
 mmlsquota --block-size auto -u wustlkey rdcw-fs2:home1
 ```
-<img src="images/quota.example.png" title="Quota Example" alt="quota-example" width="500px" />
+<img src="images/quota.example.png" title="Quota Example" alt="quota-example" />
 Under the BLock Limits portion 'blocks' is how much of the 10Gb that you have consumed.
 
 ## Why is this limited to 10G? Can I have more?
@@ -164,7 +164,7 @@ du -hsx .[^.]* * 2>/dev/null | sort -rh | head -10
 ```
 mmlsquota --block-size auto -j wustlkey_active rdcw-fs1
 ```
-<img src="images/storage.quota.png" title="Storage Quota" alt="storage-quota" width="500px" />
+<img src="images/storage.quota.png" title="Storage Quota" alt="storage-quota" />
 
 - Again, under the Block Limits section, the 'blocks' portion is how much you have consumed.
   The Compute Service uses a caching interface to access the data. Read more about how
