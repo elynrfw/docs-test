@@ -11,7 +11,7 @@ The *RIS User Manual* has a [chapter for the Compute Service](https://confluence
 ## Where are the RIS computing services physically located?
 
 The Research Datacenter is physically located at:
-> 222 S Newstead Ave.
+> 222 S Newstead Ave\
 > St. Louis, MO 63110
 
 <img src="images/datacenter.png" title="Data Center" alt="data-center" />
