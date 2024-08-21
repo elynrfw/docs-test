@@ -24,12 +24,14 @@ have been separated into different topics.
 
 <details>
   <summary>Job Execution Examples</summary>
+  
   The following documentation goes into depth on the options available for running jobs and includes some examples.\
   *job-execution-examples*
 </details>
 
 <details>
   <summary>LSF Queues</summary>
+  
   The following documentation discusses using different queues and the LSF configurations based around that usage.\
   *lsf-queues*
 </details>
