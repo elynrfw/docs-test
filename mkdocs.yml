@@ -2,4 +2,4 @@ site_name: RIS Services User Documentation
 repo_url: https://github.com/elynrfw/docs-test
 
 theme:
-  name: moonstone
+  name: ivory
