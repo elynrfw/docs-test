@@ -1,6 +1,5 @@
 # RIS Services User Manual
 
-
 > [!Note]
 > 
 > These are the User Manuals for Wash U IT Research Infrastructure Services (RIS)
