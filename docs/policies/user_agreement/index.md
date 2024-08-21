@@ -1,3 +1,5 @@
+# RIS Compute: User Agreement
+
 The RIS Compute Service is fundamentally built around Docker Containers. Docker is a container platform (see Why docker? 
 and What is a Container?) designed to make it easier to build and deploy software runtime environments. 
 Users of the RIS Compute Service will be called upon to learn about Docker and its related concepts and technologies.
