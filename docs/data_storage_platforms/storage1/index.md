@@ -102,7 +102,7 @@ copy previous versions out of the .snapshots directory back into Active.
 
 ## Enabling The Storage Service
 
-- Visit the `RIS Service Desk <https://servicedesk.ris.wustl.edu>`__, then on the
+- Visit the [RIS Service Desk](https://washu.atlassian.net/servicedesk/customer/portal/2), then on the
   left, click the **Storage Platform** section, and begin a **Service Request**
   for a new *Allocation* by selecting **Activate a new storage allocation**.
 
@@ -154,13 +154,14 @@ Consider a project named "First_Project". It will contain data that should be
 *read-write* for Alice and Bob, but *read-only* for John and Jane. Submit a
 Service Desk requests and ask that RIS construct the "First Project" project
 subdirectory, and create the associated Access Lists::
-
+```
    jdoe/
    ├── Active/
    │   └── First_Project/
    ├── Archive/
    │   └── First_Project/
    └── Snapshots/
+```
 
 The Access Lists are populated by WUSTL Key IDs. Two new AD groups will be
 created on your behalf:
@@ -185,103 +186,56 @@ controls are respected on the project subdirectory.
 > Storage/Compute platform uses. Any files to be transferred to Storage/Compute
 > need to be created following this limit or they cannot be transferred.
 
-.. _`ris-storage-moving-data`:
+## Moving Data Into The Storage Service
 
-Moving Data Into The Storage Service
-------------------------------------
+> [!NOTE]
+> ###Compute Data Transfer Policy
+>
+> Please see our *Compute Data Transfer Policy*
+> if you will be transferring data to and from your storage allocation using compute1.
 
-.. admonition:: Compute Data Transfer Policy
+## CHPC
 
-   Please see our :ref:`Compute Data Transfer Policy <ris-compute-transfer-policy>`
-   if you will be transferring data to and from your storage allocation using compute1.
+*Instructions for moving data from CHPC*
 
-CHPC
-~~~~~~
-
-Instructions for moving data from CHPC
-
-.. toctree::
-   :maxdepth: 1
-
-   chpc
-
-Globus
-~~~~~~
+## Globus
 
 Instructions for moving data with Globus:
+*insert link here*
 
-.. toctree::
-   :maxdepth: 1
-
-   globus
-
-Globus CLI
-~~~~~~~~~~
+## Globus CLI
 
 Instructions for moving data with Globus CLI:
+*insert link here*
 
-.. toctree::
-   :maxdepth: 1
-
-   globus-cli
-
-Globus Connect Personal
-~~~~~~~~~~~~~~~~~~~~~~~
+## Globus Connect Personal
 
 Instructions for installing and using Globus Connect Personal:
+*insert link here*
 
-.. toctree::
-   :maxdepth: 1
+## Rclone
 
-   globus-connect-personal
+Instructions for moving data with Rclone
+*insert link here*
 
-.. _`ris-storage-access-control-content`:
-
-Rclone
-~~~~~~
-
-.. toctree::
-   :maxdepth: 1
-
-   rclone
-
-gsutil
-~~~~~~
+## gsutil
 
 Instructions for moving data from Google storage with gsutil
+*insert link here*
 
-.. toctree::
-    :maxdepth: 1
-
-    gsutil
-
-Access Control
---------------
+## Access Control
 
 Instructions for how to manage access to your data in the Storage Service.
+*insert link here*
 
-.. toctree::
-   :maxdepth: 1
-
-   access-control
-
-.. _`ris-storage-limitations`:
-
-Known Limitations
------------------
-
-.. _`ris-limitations`:
+## Known Limitations
 
 The Storage Service includes a feature set documented in these pages. Each
 feature or capability has limitations or caveats.
 
-.. _`storage-limitations-calculating-free-space`:
+## Calculating Free Space
 
-Calculating Free Space
-~~~~~~~~~~~~~~~~~~~~~~
-
-Use SMB to determine free space in a Storage Service Allocation
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+### Use SMB to determine free space in a Storage Service Allocation
 
 Every Storage Service Allocation comes with a quota that determines how
 much data can be stored in the Allocation.  Currently, **the only way
@@ -300,13 +254,12 @@ participating labs to the Compute Service.
 The Compute Service Integration feature is implemented with **a caching
 layer that has its own quota**\.  Because of this, using **utilities
 to measure free space through the Compute Service Interface will return
-misleading information**\.  Tools like ``df`` will actually return the
+misleading information**\.  Tools like `df` will actually return the
 usage of the *cache layer*\, which consumes entirely separate storage.
 This caching layer quota may even have the same limit as the Allocation
 quota, however they are not the same.
 
-Use a Compute Service shell to determine usage in a Storage Service Allocation
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+### Use a Compute Service shell to determine usage in a Storage Service Allocation
 
 The Compute Service Integration feature is implemented with **a caching layer
 that has its own quota**\.  Because of this, using utilities to measure free
@@ -319,52 +272,48 @@ Allocation quota, however they are not the same.
 Obtaining the true usage of a Storage Service Allocation can be accomplished by
 using ``df`` while connected to the client node or in an interactive job. Shown
 below is an example::
+```
+$ df -h /storage1/fs1/ris
+```
 
-   $ df -h /storage1/fs1/ris
-
-Tools like ``du`` are generic unix utilities to determine usage.  To use
-``du`` on a Storage Service Allocation that has been enabled in Compute Service,
-you will have to include the option ``--apparent-size`` for the ``du`` unix system
+Tools like `du` are generic unix utilities to determine usage.  To use
+`du` on a Storage Service Allocation that has been enabled in Compute Service,
+you will have to include the option `--apparent-size` for the `du` unix system
 tool command to get the correct usage amount.  Shown below is an example::
+```
+$ du -sh --apparent-size /storage1/fs1/ris/Active/
+```
 
-   $ du -sh --apparent-size /storage1/fs1/ris/Active/
+## Active Directory Group Management
 
-.. _`ris-storage-management`:
-
-Active Directory Group Management
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Members May Be Removed From Groups
-''''''''''''''''''''''''''''''''''
+### Members May Be Removed From Groups
 
 A change in status or relationship in the university (e.g. changing
 jobs or departments, resigning or graduating) may trigger an automatic
 HR/WUIT process that removes a WUSTL Key from any groups.  This may
 cause interruption of access, and may not be automatically restored.
 
-Group Membership Appears Different On Windows or SMB and Compute
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+### Group Membership Appears Different On Windows or SMB and Compute
 
 AD groups support nested group membership, a feature which is utilized
 in the RIS Storage and Compute services.  On POSIX systems such as RIS
 Compute clients however, groups will be shown with their nested groups
 expanded to individual members.  So, in Active Directory we may see::
-
-   $ adgm storage-ris-itsm-rw
-   RIS-APPENG
-   $ accounts.ldapsearch cn=storage-ris-itsm-rw member gidNumber
-   dn: CN=storage-ris-itsm-rw,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
-   member: CN=RIS-APPENG,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
-   gidNumber: 1250923
-
+```
+$ adgm storage-ris-itsm-rw
+RIS-APPENG
+$ accounts.ldapsearch cn=storage-ris-itsm-rw member gidNumber
+dn: CN=storage-ris-itsm-rw,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
+member: CN=RIS-APPENG,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
+gidNumber: 1250923
+```
 While the same group appears in Compute1 as::
+```
+$ getent group storage-ris-itsm-rw
+storage-ris-itsm-rw:*:1250923:david.prince,shawn.m.leonard,dhallan,jansen,catherine.morie,tz-kai.lin,sleong,cspohl
+```
 
-   $ getent group storage-ris-itsm-rw
-   storage-ris-itsm-rw:*:1250923:david.prince,shawn.m.leonard,dhallan,jansen,catherine.morie,tz-kai.lin,sleong,cspohl
-
-
-Ignoring umask
-~~~~~~~~~~~~~~
+## Ignoring umask
 
 When any file or directory is created with an inherited Access Control
 Entry (ACE), the POSIX "umask" will be ignored.  The umask normally
@@ -378,27 +327,11 @@ the intended behavior.  An example of where this might cause an issue
 is with the usage of git repositories containing permissions settings
 that conflict with the default ACLs.
 
-Security Implications of SMB
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Security Implications of SMB
 
 Protocols like SMB evolve over time as a result of feature changes or security
 vulnerabilities. **We expect users to use SMB3**.
 
-Early Access, Design Changes, Implementation and Integration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Early Access, Design Changes, Implementation and Integration
 
-.. toctree::
-   :maxdepth: 1
-
-   alloc_spec_limits
-
-.. _`ris-storage-faq`:
-
-FAQ
----
-
-.. toctree::
-   :maxdepth: 1
-
-   storage-faq
-
+*insert link here*
