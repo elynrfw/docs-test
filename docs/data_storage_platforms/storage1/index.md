@@ -106,7 +106,7 @@ copy previous versions out of the .snapshots directory back into Active.
   left, click the **Storage Platform** section, and begin a **Service Request**
   for a new *Allocation* by selecting **Activate a new storage allocation**.
 
-.. image:: ../images/ris-jira-storage.png
+<img src="images/ris-jira-storage.png" title="Jira Storage" alt="jira-storage" />
 
 - If you are a Faculty member requesting personal space, the Allocation Name will match your WUSTL Key ID.
 - If you represent a "Research Lab" you can name the allocation after your Lab Name. If so, indicate the name in your Service Request
