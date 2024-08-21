@@ -16,6 +16,7 @@ The Compute service requires an understanding of these container technologies as
 the Linux command line and related open source technologies, as well as high performance computing job schedulers.
 
 Users of the service:
+
 - Agree to install Docker on their own computing workstation or laptop.
 - Agree to obtain accounts on Docker Hub or other public container registries.
 - Acknowledge that they will be learning Docker container technologies.
@@ -29,4 +30,5 @@ fundamentally different than running arbitrary code downloaded from the Internet
 computing environment.
 
 Users:
+
 - Acknowledge the risks of running code obtained from unverified sources.
