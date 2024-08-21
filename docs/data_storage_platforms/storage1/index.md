@@ -106,7 +106,7 @@ copy previous versions out of the .snapshots directory back into Active.
   left, click the **Storage Platform** section, and begin a **Service Request**
   for a new *Allocation* by selecting **Activate a new storage allocation**.
 
-<img src="images/ris-jira-storage.png" title="Jira Storage" alt="jira-storage" />
+<img src="images/ris-jira-storage.png" title="Jira Storage" alt="jira-storage" width="1000px" />
 
 - If you are a Faculty member requesting personal space, the Allocation Name will match your WUSTL Key ID.
 - If you represent a "Research Lab" you can name the allocation after your Lab Name. If so, indicate the name in your Service Request
@@ -172,7 +172,8 @@ created on your behalf:
 The permissions will be created and managed by RIS such that these access
 controls are respected on the project subdirectory.
 
-> [!NOTE]
+> ### Note:
+> 
 > When creating directories or files, it is best practices to avoid using spaces
 > within the name. If you need to separate parts of a name, it is highly recommended
 > that you use dashes ``-`` or underscores ``_``.
@@ -188,8 +189,7 @@ controls are respected on the project subdirectory.
 
 ## Moving Data Into The Storage Service
 
-> [!NOTE]
-> ###Compute Data Transfer Policy
+> ### Compute Data Transfer Policy:
 >
 > Please see our *Compute Data Transfer Policy*
 > if you will be transferring data to and from your storage allocation using compute1.
@@ -307,7 +307,7 @@ dn: CN=storage-ris-itsm-rw,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
 member: CN=RIS-APPENG,OU=RIS,OU=Groups,DC=accounts,DC=ad,DC=wustl,DC=edu
 gidNumber: 1250923
 ```
-While the same group appears in Compute1 as::
+While the same group appears in Compute1 as:
 ```
 $ getent group storage-ris-itsm-rw
 storage-ris-itsm-rw:*:1250923:david.prince,shawn.m.leonard,dhallan,jansen,catherine.morie,tz-kai.lin,sleong,cspohl
