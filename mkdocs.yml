@@ -1,15 +1,23 @@
-site_name: RIS Services Documentation
+site_name: RIS Services User Documentation
 repo_url: https://github.com/elynrfw/docs-test
 
 nav:
   - Home: index.md
   - Policies:
     - User Agreement: policies/user_agreement/index.md
+  - FAQs:
+    - RIS Basics: faqs/ris_basics/index.md
+    - Compute: faqs/compute/index.md
+    - Storage: faqs/storage/index.md
   - Scientific Compute Platforms:
     - Compute1: scientific_compute_platforms/compute1/index.md
+  - Software and Applications:
+    - RIS THPC Applications: software_and_applications/thpc_applications/index.md
+    - RIS Supported Applications: software_and_applications/supported_applications/index.md
+    - Community Vetted Applications: software_and_applications/vetted_applications/index.md
   - Data Storage Platforms:
     - Storage1: data_storage_platforms/storage1/index.md
   - Research Applications and Services:
 
-  theme:
-    name: readthedocs
+theme:
+  name: readthedocs
