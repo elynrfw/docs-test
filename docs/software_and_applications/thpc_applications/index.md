@@ -33,294 +33,327 @@ To request an application not seen here, reach out to the [RIS Service Desk](htt
   - bzip2
 </details>
 
-## C
+<details>
+  <summary>C</summary>
 
-- cadence *
-- cairo
-- CGAL
-- Clang
-- CMake
-- comsol *
-- Coot
-- cuda
-- CUDA
-- cuDNN
-- cURL
+  - cadence *
+  - cairo
+  - CGAL
+  - Clang
+  - CMake
+  - comsol *
+  - Coot
+  - cuda
+  - CUDA
+  - cuDNN
+  - cURL
+</details>
 
-## D
+<details>
+  <summary>D</summary>
 
-- DB
-- Dbeaver
-- DBus
-- double-conversion
-- Doxygen
+  - DB
+  - Dbeaver
+  - DBus
+  - double-conversion
+  - Doxygen
+</details>
 
-## E
+<details>
+  <summary>E</summary>
 
-- Eigen
-- elfutils
-- expat
+  - Eigen
+  - elfutils
+  - expat
+</details>
 
-## F
+<details>
+  <summary>F</summary>
 
-- FFmpeg
-- ffnvcodec
-- FFTW
-- FFTW.MPI
-- Firefox
-- FLAC
-- flex
-- FlexiBLAS
-- FLTK
-- fontconfig
-- foss
-- freetype
-- FriBidi
-- FSL
-- fuse2
-- fuse3
-- FreeSurfer
+  - FFmpeg
+  - ffnvcodec
+  - FFTW
+  - FFTW.MPI
+  - Firefox
+  - FLAC
+  - flex
+  - FlexiBLAS
+  - FLTK
+  - fontconfig
+  - foss
+  - freetype
+  - FriBidi
+  - FSL
+  - fuse2
+  - fuse3
+  - FreeSurfer
+</details>
 
-## G
+<details>
+  <summary>G</summary>
 
-- gawk
-- GCC
-- GCCcore
-- GDAL
-- Gdk-Pixbuf
-- GDRCopy
-- GEOS
-- gettext
-- Ghostscript
-- git
-- GLib
-- GLPK
-- GMP
-- gnuplot
-- GObject-Introspection
-- gompi
-- googletest
-- gperf
-- graphite2
-- groff
-- GSL
-- GTK+
-- GTK2
-- gzip
+  - gawk
+  - GCC
+  - GCCcore
+  - GDAL
+  - Gdk-Pixbuf
+  - GDRCopy
+  - GEOS
+  - gettext
+  - Ghostscript
+  - git
+  - GLib
+  - GLPK
+  - GMP
+  - gnuplot
+  - GObject-Introspection
+  - gompi
+  - googletest
+  - gperf
+  - graphite2
+  - groff
+  - GSL
+  - GTK+
+  - GTK2
+  - gzip
+</details>
 
-## H
+<details>
+  <summary>H</summary>
 
-- HarfBuzz
-- HDF
-- HDF5
-- help2man
-- hwloc
-- hypothesis
+  - HarfBuzz
+  - HDF
+  - HDF5
+  - help2man
+  - hwloc
+  - hypothesis
+</details>
 
-## I
+<details>
+  <summary>I</summary>
 
-- ICU
-- IGV
-- iimpi
-- ImageMagick
-- imkl
-- imkl-FFTW
-- impi
-- InstantClient
-- intel
-- intel-compilers
-- intltool
+  - ICU
+  - IGV
+  - iimpi
+  - ImageMagick
+  - imkl
+  - imkl-FFTW
+  - impi
+  - InstantClient
+  - intel
+  - intel-compilers
+  - intltool
+</details>
 
-## J
+<details>
+  <summary>J</summary>
 
-- JasPer
-- Java
-- jbigkit
-- Julia
+  - JasPer
+  - Java
+  - jbigkit
+  - Julia
+</details>
 
-K
--
+<details>
+  <summary>K</summary>
 
-- keysight *
-- ksh
+  - keysight *
+  - ksh
+</details>
 
-L
--
+<details>
+  <summary>L</summary>
 
-- LAME
-- libarchive
-- libcerf
-- libdeflate
-- libdrm
-- libepoxy
-- libevent
-- libfabric
-- libffi
-- libgd
-- libgeotiff
-- libgit2
-- libGLU
-- libglvnd
-- libiconv
-- libjpeg-turbo
-- libogg
-- libopus
-- libpciaccess
-- libpng
-- libsndfile
-- LibTIFF
-- libtirpc
-- libtool
-- libunwind
-- libvorbis
-- libxml2
-- libxslt
-- LittleCMS
-- LLVM
-- lmod
-- Lua
-- lz4
+  - LAME
+  - libarchive
+  - libcerf
+  - libdeflate
+  - libdrm
+  - libepoxy
+  - libevent
+  - libfabric
+  - libffi
+  - libgd
+  - libgeotiff
+  - libgit2
+  - libGLU
+  - libglvnd
+  - libiconv
+  - libjpeg-turbo
+  - libogg
+  - libopus
+  - libpciaccess
+  - libpng
+  - libsndfile
+  - LibTIFF
+  - libtirpc
+  - libtool
+  - libunwind
+  - libvorbis
+  - libxml2
+  - libxslt
+  - LittleCMS
+  - LLVM
+  - lmod
+  - Lua
+  - lz4
+</details>
 
-M
--
+<details>
+  <summary>M</summary>
 
-- M4
-- make
-- makeinfo
-- Mako
-- MATLAB
-- Mesa
-- Meson
-- METIS
-- Miniconda3
-- mosh
-- MPFR
+  - M4
+  - make
+  - makeinfo
+  - Mako
+  - MATLAB
+  - Mesa
+  - Meson
+  - METIS
+  - Miniconda3
+  - mosh
+  - MPFR
+</details>
 
-N
--
+<details>
+  <summary>N</summary>
 
-- NASM
-- NCCL
-- ncurses
-- netCDF
-- nettle
-- Ninja
-- nlohmann_json
-- NLopt
-- nodejs
-- NSPR
-- NSS
-- numactl
+  - NASM
+  - NCCL
+  - ncurses
+  - netCDF
+  - nettle
+  - Ninja
+  - nlohmann_json
+  - NLopt
+  - nodejs
+  - NSPR
+  - NSS
+  - numactl
+</details>
 
-O
--
+<details>
+  <summary>O</summary>
 
-- OpenBLAS
-- OpenFOAM
-- OpenJPEG
-- OpenMPI
-- OpenSSL
+  - OpenBLAS
+  - OpenFOAM
+  - OpenJPEG
+  - OpenMPI
+  - OpenSSL
+</details>
 
-P
--
+<details>
+  <summary>P</summary>
 
-- Pango
-- parallel-tar
-- ParaView
-- PCRE
-- PCRE2
-- Perl
-- Perl-bundle-CPAN
-- pixman
-- pkg-config
-- pkgconf
-- PMIx
-- PostgreSQL
-- PROJ
-- pybind11
-- Python
+  - Pango
+  - parallel-tar
+  - ParaView
+  - PCRE
+  - PCRE2
+  - Perl
+  - Perl-bundle-CPAN
+  - pixman
+  - pkg-config
+  - pkgconf
+  - PMIx
+  - PostgreSQL
+  - PROJ
+  - pybind11
+  - Python
+</details>
 
-Q
--
+<details>
+  <summary>Q</summary>
 
-- Qt5
+  - Qt5
+</details>
 
-R
--
+<details>
+  <summary>R</summary>
 
-- R
-- re2c
-- RELION
-- RStudio-Server
-- rsync
-- Ruby
-- Rust
+  - R
+  - re2c
+  - RELION
+  - RStudio-Server
+  - rsync
+  - Ruby
+  - Rust
+</details>
 
-S
--
+<details>
+  <summary>C</summary>
 
-- SAMtools
-- SAS
-- ScaLAPACK
-- SciPy-bundle
-- SCOTCH
-- settarg
-- snappy
-- SOCI
-- SQLite
-- Stata
-- Szip
+  - SAMtools
+  - SAS
+  - ScaLAPACK
+  - SciPy-bundle
+  - SCOTCH
+  - settarg
+  - snappy
+  - SOCI
+  - SQLite
+  - Stata
+  - Szip
+</details>
 
-T
--
+<details>
+  <summary>T</summary>
 
-- tbb
-- Tcl
-- tcsh
-- Tk
+  - tbb
+  - Tcl
+  - tcsh
+  - Tk
+</details>
 
-U
--
+<details>
+  <summary>C</summary>
 
-- UCC
-- UCX
-- UCX-CUDA
-- UDUNITS
-- UnZip
-- util-linux
+  - UCC
+  - UCX
+  - UCX-CUDA
+  - UDUNITS
+  - UnZip
+  - util-linux
+</details>
 
-V
--
+<details>
+  <summary>V</summary>
 
-- Vim
-- vscode
-- VSCode
+  - Vim
+  - vscode
+  - VSCode
+</details>
 
-W
--
+<details>
+  <summary>W</summary>
 
-X
--
+</details>
 
-- X11
-- x264
-- x265
-- xilinx *
-- xorg-macros
-- xprop
-- Xvfb
-- XZ
+<details>
+  <summary>X</summary>
 
-Y
--
+  - X11
+  - x264
+  - x265
+  - xilinx *
+  - xorg-macros
+  - xprop
+  - Xvfb
+  - XZ
+</details>
 
-- yaml-cpp
-- Yasm
+<details>
+  <summary>Y</summary>
 
-Z
--
+  - yaml-cpp
+  - Yasm
+</details>
 
-- Z3
-- zlib
-- zsh
-- zstd
+<details>
+  <summary>Z</summary>
+
+  - Z3
+  - zlib
+  - zsh
+  - zstd
+</details>
