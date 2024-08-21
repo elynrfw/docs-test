@@ -10,9 +10,11 @@ have been separated into different topics.
 <details>
   <summary>SSH Keypair</summary>
 
--  <kbd>The following page describes creating a secure ssh keypair between the RIS Compute Platform and your local machine.</kbd>
--  <kbd>This sets up for a "password free" login to the RIS Compute Platform.</kbd>
--  <kbd>*SSH Keypair*</kbd>
+  <kbd>
+    The following page describes creating a secure ssh keypair between the RIS Compute Platform and your local machine.
+    This sets up for a "password free" login to the RIS Compute Platform.
+    *SSH Keypair*
+  </kbd>
 
 </details>
 
