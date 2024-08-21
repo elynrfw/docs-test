@@ -8,11 +8,11 @@ This page does not include application containers where the user does not want,
 or is forbidden, to put code into a public registry.
 
 > [!WARNING]
-> The application containers listed on this page have been vetted to start a\
-> shell in an interactive job at the time of testing and were confirmed\
-> working at the time they were tested. The level of security with\
-> non-RIS-hosted images is not guaranteed and has not been tested.\\
-> As such, we recommend to use RIS-hosted Docker images when possible. Please\
+> The application containers listed on this page have been vetted to start a
+> shell in an interactive job at the time of testing and were confirmed
+> working at the time they were tested. The level of security with
+> non-RIS-hosted images is not guaranteed and has not been tested.\
+> As such, we recommend to use RIS-hosted Docker images when possible. Please
 > visit *this page* for a list of RIS supported Docker images.
 
 > [!NOTE]
