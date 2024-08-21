@@ -18,62 +18,70 @@ or is forbidden, to put code into a public registry.
 > [!NOTE]
 > To successfully run `bsub` commands on this page, you must already be logged into the Compute Service:\
 > `> ssh ${compute_username}@compute1-client-1.ris.wustl.edu`\
-> If you are not connected to a a Medical School network (WUSM-secure, MSVPN),\
-> or the Danforth VPN, you will need to perform port forwarding before\
+> If you are not connected to a a Medical School network (WUSM-secure, MSVPN),
+> or the Danforth VPN, you will need to perform port forwarding before
 > accessing a GUI (i.e. accessing a Jupyter notebook or RStudio session).\
 > Documentation to forward ports is found *here.*
 
 ## Applications, Packages and Environment Images
 
-.NET Core
-~~~~~~~~~
-* Registry Location: https://hub.docker.com/_/microsoft-dotnet-core-sdk/
-* ".NET Core is an open-source, general-purpose development platform maintained by Microsoft and the .NET community on GitHub.
+<details>
+  <summary>.NET Core</summary>
+
+  - Registry Location: [https://hub.docker.com/_/microsoft-dotnet-core-sdk/](https://hub.docker.com/_/microsoft-dotnet-core-sdk/)
+  - ".NET Core is an open-source, general-purpose development platform maintained by Microsoft and the .NET community on GitHub.
   It's cross-platform (supporting Windows, macOS, and Linux) and can be used to build device, cloud, and IoT applications."
-  - Source: https://docs.microsoft.com/en-us/dotnet/core/
-* Run interactive job:
-    .. code::
+    - Source: [https://docs.microsoft.com/en-us/dotnet/core/](https://docs.microsoft.com/en-us/dotnet/core/)
+  - Run interactive job:
+  ```
+  bsub -G ${group_name} -Is -q general-interactive -a 'docker(mcr.microsoft.com/dotnet/core/sdk)' /bin/bash
+  ```
+</details>
 
-        > bsub -G ${group_name} -Is -q general-interactive -a 'docker(mcr.microsoft.com/dotnet/core/sdk)' /bin/bash
+<details>
+  <summary>Anaconda</summary>
 
-Anaconda
-~~~~~~~~
-* Registry Location:
-    * Using Python 3.5: https://hub.docker.com/r/continuumio/anaconda3
-    * Using Python 2.7: https://hub.docker.com/r/continuumio/anaconda
-* "Anaconda is the leading open data science platform powered by Python. The open source version of Anaconda is
+  - Registry Location:
+    - Using Python 3.5: [https://hub.docker.com/r/continuumio/anaconda3](https://hub.docker.com/r/continuumio/anaconda3)
+    - Using Python 2.7: [https://hub.docker.com/r/continuumio/anaconda](https://hub.docker.com/r/continuumio/anaconda)
+  - "Anaconda is the leading open data science platform powered by Python. The open source version of Anaconda is
   a high performance distribution and includes over 100 of the most popular Python packages for data science.
   Additionally, it provides access to over 720 Python and R packages that can easily be installed using the conda
-  dependency and environment manager, which is included in Anaconda." - Source: https://hub.docker.com/r/continuumio/anaconda3
-* Run interactive job:
-    .. code::
+  dependency and environment manager, which is included in Anaconda." - Source: [https://hub.docker.com/r/continuumio/anaconda3](https://hub.docker.com/r/continuumio/anaconda3)
+  - Run interactive job:
+  ```
+  # Using Python 3.5:
+  > bsub -G ${group_name} -Is -q general-interactive -a 'docker(continuumio/anaconda3)' /bin/bash
 
-        # Using Python 3.5:
-        > bsub -G ${group_name} -Is -q general-interactive -a 'docker(continuumio/anaconda3)' /bin/bash
+  # Using Python 2.7:
+  > bsub -G ${group_name} -Is -q general-interactive -a 'docker(continuumio/anaconda)' /bin/bash
+  ```
+</details>
 
-        # Using Python 2.7:
-        > bsub -G ${group_name} -Is -q general-interactive -a 'docker(continuumio/anaconda)' /bin/bash
+<details>
+  <summary>AnnovarR</summary>
 
-AnnovarR
-~~~~~~~~
-* Registry Location: https://registry.hub.docker.com/r/bioinstaller/annovarr
-* "The annovarR package provides R functions as well as database resources which offer an integrated
+  - Registry Location: [https://registry.hub.docker.com/r/bioinstaller/annovarr](https://registry.hub.docker.com/r/bioinstaller/annovarr)
+  - "The annovarR package provides R functions as well as database resources which offer an integrated
   framework to annotate genetic variants from genome and transcriptome data. The wrapper functions of
   annovarR unified the interface of many published annotation tools, such as VEP, ANNOVAR, vcfanno and
   AnnotationDbi." - Source: https://registry.hub.docker.com/r/bioinstaller/annovarr
-* Run interactive job:
-    .. code::
+  - Run interactive job:
+  ```
+  > bsub -G ${group_name} -Is -q general-interactive -a 'docker(bioinstaller/annovarr)' R
+  ```
+</details>
 
-        > bsub -G ${group_name} -Is -q general-interactive -a 'docker(bioinstaller/annovarr)' R
+<details>
+  <summary>BamTools</summary>
 
-BamTools
-~~~~~~~~
-* Registry Location: https://bioconda.github.io/recipes/bamtools/README.html
-* "C++ API & command-line toolkit for working with BAM data" - Source: https://bioconda.github.io/recipes/bamtools/README.html
-* Run interactive job:
-    .. code ::
-
-        > bsub -G ${group_name} -Is -q general-interactive -a 'docker(quay.io/biocontainers/bamtools:2.5.1--he860b03_5)' /bin/bash
+  - Registry Location: [https://bioconda.github.io/recipes/bamtools/README.html](https://bioconda.github.io/recipes/bamtools/README.html)
+  - "C++ API & command-line toolkit for working with BAM data" - Source: [https://bioconda.github.io/recipes/bamtools/README.html](https://bioconda.github.io/recipes/bamtools/README.html)
+  - Run interactive job:
+  ```
+  > bsub -G ${group_name} -Is -q general-interactive -a 'docker(quay.io/biocontainers/bamtools:2.5.1--he860b03_5)' /bin/bash
+  ```
+</details>
 
 BCFtools
 ~~~~~~~~
