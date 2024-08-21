@@ -21,4 +21,4 @@ At the time of this writing, you can access storage service Allocations via:
 
 ## What are the Storage and Archive policies?
 
-These policies can be found [here.](../../polices/compute_user_agreement)
+These policies can be found [here.](../../polices/compute_user_agreement/index.md)
