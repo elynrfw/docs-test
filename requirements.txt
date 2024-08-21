@@ -1,1 +1,1 @@
-mkdocs-github
+mkdocs-moonstone
