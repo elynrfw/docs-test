@@ -4,7 +4,7 @@ repo_url: https://github.com/elynrfw/docs-test
 nav:
   - Home: index.md
   - Policies:
-    - User Agreement: policies/user_agreement/index.md
+    - Compute User Agreement: policies/compute_user_agreement/index.md
   - FAQs:
     - RIS Basics: faqs/ris_basics/index.md
     - Compute: faqs/compute/index.md
