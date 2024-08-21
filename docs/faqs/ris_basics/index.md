@@ -92,6 +92,7 @@ are ready for production use.
 
 Deprecated features are scheduled to be shut down and removed.
 
-> [!NOTE]
+> ### Note:
+> 
 > Depending on product maturity and engineering needs, a RIS product or feature may not go through
 > every launch stage, and the time between launch phases may vary.
