@@ -3,3 +3,5 @@ repo_url: https://github.com/elynrfw/docs-test
 
 theme:
   name: github
+  highlightjs: true
+  hljs_style: github
