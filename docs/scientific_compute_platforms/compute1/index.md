@@ -13,21 +13,26 @@ have been separated into different topics.
   The following page describes creating a secure ssh keypair between the RIS Compute Platform and your local machine.\
   This sets up for a "password free" login to the RIS Compute Platform.\
   *SSH Keypair*
-
 </details>
 
-### Docker on Compute
-- The following describes Docker as it relates to the RIS Compute Platform.
+<details>
+  <summary>Docker on Compute</summary>
+  
+  The following describes Docker as it relates to the RIS Compute Platform.\
+  *docker-on-compute*
+</details>
 
-*docker-on-compute*
+<details>
+  <summary>Job Execution Examples</summary>
+  The following documentation goes into depth on the options available for running jobs and includes some examples.\
+  *job-execution-examples*
+</details>
 
-- The following documentation goes into depth on the options available for running jobs and includes some examples.
-
-*job-execution-examples*
-
-- The following documentation discusses using different queues and the LSF configurations based around that usage.
-
-*lsf-queues*
+<details>
+  <summary>LSF Queues</summary>
+  The following documentation discusses using different queues and the LSF configurations based around that usage.\
+  *lsf-queues*
+</details>
 
 - The following documentation discusses the differences between slurm and LSF to ease transition between using the different queue systems.
 
