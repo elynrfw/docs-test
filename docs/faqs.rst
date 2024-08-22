@@ -6,5 +6,3 @@ RIS FAQs
     :maxdepth: 1
 
     faqs/ris_basics
-    faqs/compute
-    faqs/storage
