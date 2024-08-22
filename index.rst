@@ -8,3 +8,6 @@ RIS Services User Manual
 
 Research Infrastructure Services offers multiple services and in the user manuals found here
 you will find the documentation for using those services.
+
+.. collapse:: This is a label
+  Collapse contents here!
