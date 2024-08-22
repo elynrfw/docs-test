@@ -38,8 +38,7 @@ Applications, Packages and Environment Images
 .. collapse:: .NET Core
 
   - Registry Location: https://hub.docker.com/_/microsoft-dotnet-core-sdk/
-  - ".NET Core is an open-source, general-purpose development platform maintained by Microsoft and the .NET community on GitHub.
-      It's cross-platform (supporting Windows, macOS, and Linux) and can be used to build device, cloud, and IoT applications."
+  - ".NET Core is an open-source, general-purpose development platform maintained by Microsoft and the .NET community on GitHub. It's cross-platform (supporting Windows, macOS, and Linux) and can be used to build device, cloud, and IoT applications."
         - Source: https://docs.microsoft.com/en-us/dotnet/core/
   - Run interactive job:
   .. code::
