@@ -13,3 +13,4 @@ you will find the documentation for using those services.
     :maxdepth: 1
 
     docs/faqs
+    docs/software-and-applications
