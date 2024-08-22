@@ -1,7 +1,7 @@
 .. _`vetted-applications`:
 
-RIS-Vetted Application Containers
-=================================
+Vetted Applications
+===================
 
 This page contains basic information and user-friendly guides to running RIS-vetted
 application containers on compute. This is `not` an inclusive list of usable applications, by
