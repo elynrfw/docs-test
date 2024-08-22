@@ -12,5 +12,6 @@ you will find the documentation for using those services.
 .. toctree::
     :maxdepth: 1
 
+    docs/policies
     docs/faqs
     docs/software-and-applications
