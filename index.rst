@@ -10,7 +10,7 @@ Research Infrastructure Services offers multiple services and in the user manual
 you will find the documentation for using those services.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     docs/policies
     docs/faqs
