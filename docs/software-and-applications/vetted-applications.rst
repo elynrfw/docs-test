@@ -39,8 +39,8 @@ Applications, Packages and Environment Images
 
   - Registry Location: https://hub.docker.com/_/microsoft-dotnet-core-sdk/
   - ".NET Core is an open-source, general-purpose development platform maintained by Microsoft and the .NET community on GitHub.
-    It's cross-platform (supporting Windows, macOS, and Linux) and can be used to build device, cloud, and IoT applications."
-      - Source: https://docs.microsoft.com/en-us/dotnet/core/
+      It's cross-platform (supporting Windows, macOS, and Linux) and can be used to build device, cloud, and IoT applications."
+        - Source: https://docs.microsoft.com/en-us/dotnet/core/
   - Run interactive job:
   .. code::
 
@@ -52,9 +52,10 @@ Applications, Packages and Environment Images
     - Using Python 3.5: https://hub.docker.com/r/continuumio/anaconda3
     - Using Python 2.7: https://hub.docker.com/r/continuumio/anaconda
   - "Anaconda is the leading open data science platform powered by Python. The open source version of Anaconda is
-  a high performance distribution and includes over 100 of the most popular Python packages for data science.
-  Additionally, it provides access to over 720 Python and R packages that can easily be installed using the conda
-  dependency and environment manager, which is included in Anaconda." - Source: https://hub.docker.com/r/continuumio/anaconda3
+      a high performance distribution and includes over 100 of the most popular Python packages for data science.
+      Additionally, it provides access to over 720 Python and R packages that can easily be installed using the conda
+      dependency and environment manager, which is included in Anaconda." 
+      - Source: https://hub.docker.com/r/continuumio/anaconda3
   - Run interactive job:
     .. code::
 
@@ -68,9 +69,10 @@ Applications, Packages and Environment Images
 
   - Registry Location: https://registry.hub.docker.com/r/bioinstaller/annovarr
   - "The annovarR package provides R functions as well as database resources which offer an integrated
-  framework to annotate genetic variants from genome and transcriptome data. The wrapper functions of
-  annovarR unified the interface of many published annotation tools, such as VEP, ANNOVAR, vcfanno and
-  AnnotationDbi." - Source: https://registry.hub.docker.com/r/bioinstaller/annovarr
+      framework to annotate genetic variants from genome and transcriptome data. The wrapper functions of
+      annovarR unified the interface of many published annotation tools, such as VEP, ANNOVAR, vcfanno and
+      AnnotationDbi." 
+      - Source: https://registry.hub.docker.com/r/bioinstaller/annovarr
   - Run interactive job:
     .. code::
 
@@ -79,7 +81,8 @@ Applications, Packages and Environment Images
 .. collapse:: BamTools
 
   - Registry Location: https://bioconda.github.io/recipes/bamtools/README.html
-  - "C++ API & command-line toolkit for working with BAM data" - Source: https://bioconda.github.io/recipes/bamtools/README.html
+  - "C++ API & command-line toolkit for working with BAM data" 
+      - Source: https://bioconda.github.io/recipes/bamtools/README.html
   - Run interactive job:
     .. code ::
 
@@ -89,9 +92,10 @@ Applications, Packages and Environment Images
 
   - Registry Location: https://bioconda.github.io/recipes/bcftools/README.html
   - "BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format (VCF) and its binary counterpart BCF.
-  All commands work transparently with both VCFs and BCFs, both uncompressed and BGZF-compressed. Most commands accept VCF,
-  bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe. Indexed VCF and BCF will work in
-  all situations. Un-indexed VCF and BCF and streams will work in most, but not all situations." - Source: https://bioconda.github.io/recipes/bcftools/README.html
+      All commands work transparently with both VCFs and BCFs, both uncompressed and BGZF-compressed. Most commands accept VCF,
+      bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe. Indexed VCF and BCF will work in
+      all situations. Un-indexed VCF and BCF and streams will work in most, but not all situations." 
+      - Source: https://bioconda.github.io/recipes/bcftools/README.html
   - Run interactive job:
     .. code::
 
@@ -100,7 +104,8 @@ Applications, Packages and Environment Images
 .. collapse:: bedtools
 
   - Registry Location: https://bioconda.github.io/recipes/bedtools/README.html
-  - "...fast, flexible toolset for genome arithmetic." - Source: https://bedtools.readthedocs.io/en/latest/
+  - "...fast, flexible toolset for genome arithmetic." 
+      - Source: https://bedtools.readthedocs.io/en/latest/
   - Run interactive job:
     .. code::
 
@@ -109,7 +114,8 @@ Applications, Packages and Environment Images
 .. collapse:: BLAST
 
   - Registry Location: https://bioconda.github.io/recipes/blast/README.html
-  - "Basic Local Alignment Search Tool (BLAST) is a sequence similarity search program." - Source: https://www.ncbi.nlm.nih.gov/pubmed/18440982
+  - "Basic Local Alignment Search Tool (BLAST) is a sequence similarity search program." 
+      - Source: https://www.ncbi.nlm.nih.gov/pubmed/18440982
   - Run interactive job:
     .. code::
 
@@ -119,8 +125,9 @@ Applications, Packages and Environment Images
 
   - Registry Location: https://bioconda.github.io/recipes/bowtie/README.html
   - "Bowtie is anultrafast, memory-efficient short read aligner. It aligns short DNA sequences (reads) to the human genome at a rate of over
-  25 million 35-bp reads per hour. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small:
-  typically about 2.2 GB for the human genome (2.9 GB for paired-end)." - Source: http://bowtie-bio.sourceforge.net/index.shtml
+      25 million 35-bp reads per hour. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small:
+      typically about 2.2 GB for the human genome (2.9 GB for paired-end)." 
+      - Source: http://bowtie-bio.sourceforge.net/index.shtml
   - Run Interactive job:
     .. code::
 
