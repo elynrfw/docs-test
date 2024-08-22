@@ -1,9 +1,0 @@
-site_name: RIS Services User Manual
-site_author: RIS User Support
-site_description: "This is the website for the RIS User Manual documentation."
-site_keyword: "RIS"
-repo_url: https://github.com/elynrfw/docs-test
-
-theme:
-  name: readthedocs
- 
