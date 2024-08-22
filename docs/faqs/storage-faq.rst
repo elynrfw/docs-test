@@ -29,9 +29,9 @@ What are the ways I can access data in the Storage Service?
 
 At the time of this writing, you can access storage service Allocations via:
 
-* SMB mounts from MacOS, Linux, and Windows.
-* Globus Data Transfer endpoints.
-* POSIX filesystem access within the RIS Compute Service (See `the RIS Compute Service`).
+- SMB mounts from MacOS, Linux, and Windows.
+- Globus Data Transfer endpoints.
+- POSIX filesystem access within the RIS Compute Service (See ``the RIS Compute Service``).
 
 What are the Storage and Archive policies?
 ------------------------------------------
