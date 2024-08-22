@@ -1,8 +1,7 @@
 .. _`ris-installed-applications`:
 
-==========================
-RIS-Installed Applications
-==========================
+THPC Applications
+=================
 
 This page contains a list of applications installed to persistent storage and accessed via Docker containers. These can be run on the command
 line and `Open OnDemand` for those who want visualization using `THPC`.
