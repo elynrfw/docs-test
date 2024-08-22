@@ -3,7 +3,7 @@ RIS FAQs
 ========
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     faqs/ris_basics
     faqs/compute-faq
