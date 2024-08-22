@@ -47,19 +47,19 @@ How do I log into the Compute environment?
 How do I make it so I can log in without having to use my password?
 -------------------------------------------------------------------
 
-- We suggest you make use of SSH keys to log into the compute clients, see :ref:`SSH Key-Pair Setup <ris-ssh-keypair>`.
+- We suggest you make use of SSH keys to log into the compute clients, see ``SSH Key-Pair Setup``.
 
 How do I launch jobs in the HPC environment?
 --------------------------------------------
 
-- See our :ref:`Quick Start guide <compute-quick-start>` for submitting your first job. Further information can be found elsewhere in this documentation for more complex examples.
+- See our ``Quick Start guide`` for submitting your first job. Further information can be found elsewhere in this documentation for more complex examples.
 
 How should I name my files and directories?
 -------------------------------------------
 
 - There is documentation on best practices for file naming available in our documentation. You can find that information at the following links.
-    - `File Naming Best Practices`
-    - `Naming and Storage`
+    - ``File Naming Best Practices``
+    - ``Naming and Storage`
 
 Is there a way to summarize usage statistics?
 ---------------------------------------------
@@ -74,7 +74,7 @@ What does it mean to have a "Compute Condo(minium)"
 - Faculty members may purchase dedicated hardware for their labs to form what we refer to as a “condominium”. In this model, a “condo” is formed out of a set of hardware that we put into a Host Group.
 - Then we create a pair of Queues named after the Lab, eg labname and labname-interactive.
 - Then we create an AD group named compute-labname and populate it with Users. That group then gets priority access to that lab.
-- Please see the `Compute Recipes` section for more examples and details.
+- Please see the ``Compute Recipes`` section for more examples and details.
 
 Are there general access computing resources?
 ---------------------------------------------
@@ -90,7 +90,7 @@ What is the difference between the general and the general-interactive queues?
 - The general-interactive queue runs jobs interactively so that you can interact directly with them or watch a job.
 - The general-interactive queue does not use the cache system and instead interfaces with the Storage Platform directly.
 - Jobs in the general-interactive queue can run for up to 24 hours.
-- Please see the :ref:`general queue policies <queue-policies-general>` for more information.
+- Please see the ``general queue policies`` for more information.
 
 What does the Compute Service price include?
 --------------------------------------------
@@ -120,7 +120,7 @@ What does the Compute Service price include?
 How much space is in my ``$HOME`` directory?
 --------------------------------------------
 
-- `$HOME` directories are limited to 10GB. If you wish to observe your quota, you can use the following command:
+- ``$HOME`` directories are limited to 10GB. If you wish to observe your quota, you can use the following command:
 
 .. code::
 
@@ -133,16 +133,16 @@ How much space is in my ``$HOME`` directory?
 Why is this limited to 10G? Can I have more?
 --------------------------------------------
 
-- User `$HOME` directories are intended to allow space for users to make use of the compute cluster, with the knowledge that the Storage Cluster is where data and software will be stored. This is accessed via `/storage1`, and the Scratch Cluster is accessed via `/scratch1`.
-- The `$HOME` directory is required for the Compute Platform(s) to function for users and software often rely on it.
-- Policy dictates that you be limited to 10G of `$HOME` space.
-- The `$HOME` directory is NOT backed up and important data should NOT be stored here. Anything you wish to be backed up should be placed in `/storage1`, this includes scripts.
+- User ``$HOME`` directories are intended to allow space for users to make use of the compute cluster, with the knowledge that the Storage Cluster is where data and software will be stored. This is accessed via ``/storage1``, and the Scratch Cluster is accessed via ``/scratch1``.
+- The ``$HOME`` directory is required for the Compute Platform(s) to function for users and software often rely on it.
+- Policy dictates that you be limited to 10G of ``$HOME`` space.
+- The ``$HOME`` directory is NOT backed up and important data should NOT be stored here. Anything you wish to be backed up should be placed in ``/storage1``, this includes scripts.
 
 How do I see what is using up all of my ``$HOME`` space?
 --------------------------------------------------------
 
-- You can use the following command to list out the top 10 (or any number if you replace the 10) files or directories using the most space in your `$HOME` directory.
-- Make sure the following command is run from your `$HOME` directory.
+- You can use the following command to list out the top 10 (or any number if you replace the 10) files or directories using the most space in your ``$HOME`` directory.
+- Make sure the following command is run from your ``$HOME`` directory.
 
 .. code::
 
@@ -180,9 +180,9 @@ How much space is in my Storage Allocation?
 - The Compute Service is connected to the Storage Service via POSIX filesystem mounts.
    - The batch (execution) nodes and condos are connected via cache.
    - The client and interactive nodes are connected directly.
-- The Storage Service provides the SMB interface at `smb://storage1.ris.wustl.edu/${STORAGE_ALLOCATION}`.
-- The Compute Service provides a POSIX interface via the filesystem path `/storage1/fs1/${STORAGE_ALLOCATION}`.
-- You can observe available space via SMB mounts with a `df` command on the mounting workstation, or by the `mmlsquota` command while logged into the compute system.
+- The Storage Service provides the SMB interface at ``smb://storage1.ris.wustl.edu/${STORAGE_ALLOCATION}``.
+- The Compute Service provides a POSIX interface via the filesystem path ``/storage1/fs1/${STORAGE_ALLOCATION}``.
+- You can observe available space via SMB mounts with a `df` command on the mounting workstation, or by the ``mmlsquota`` command while logged into the compute system.
 
 .. code::
 
@@ -192,7 +192,7 @@ How much space is in my Storage Allocation?
 
 - Again, under the Block Limits section, the 'blocks' portion is how much you have consumed.
   The Compute Service uses a caching interface to access the data. Read more about how
-  this affects usage and quota here: :ref:`cache interfaces <storage-compute-cache-interface>`
+  this affects usage and quota here: ``cache interfaces``
 
 .. _`compute-software-debugging`:
 
@@ -207,7 +207,7 @@ How do I share files in my storage with colleagues?
   colleagues. This method is the suggested method when it comes to colleagues outside
   of WashU. You can find more information about using this feature here:
 
-    - `Globus Collections Documentation`
+    - ``Globus Collections Documentation``
 
 What's the best way for me to transfer data?
 --------------------------------------------
@@ -215,13 +215,13 @@ What's the best way for me to transfer data?
 - The first method we recommend is to use SMB mounts. You can find more information about
   connecting at the following link.
 
-    - `SMB Connections`
+    - ``SMB Connections``
 - Our suggested method of transferring data if SMB is not an option is to make use of Globus.
   You can use Globus in multiple ways. There are links to our Globus documentation below.
 
-    - `Globus`
-    - `Globus CLI`
-    - `Globus Connect Personal`
+    - ``Globus``
+    - ``Globus CLI``
+    - ``Globus Connect Personal``
 
 How do I request more resources for my job?
 -------------------------------------------
@@ -229,7 +229,7 @@ How do I request more resources for my job?
 - Requesting more resources for your job means using options that are part of the bsub
   command. You can find out more information about the bsub options at the following link.
 
-    - `bsub Options Documentation`
+    - ``bsub Options Documentation``
 
 - Be aware that if the software you use requires special options in order to use these
   resources, you will need to include those options in your software command as well.
@@ -237,9 +237,9 @@ How do I request more resources for my job?
 Does RIS offer Docker containers or a repository for them?
 ----------------------------------------------------------
 
-- RIS offers RIS hosted and controlled Docker images. You can find them `here.`
+- RIS offers RIS hosted and controlled Docker images. You can find them ``here.``
 - RIS also offers a list of vetted applications where we do not control the Docker image
-  nor host it. You can find that list :ref:`here. <ris-vetted-app-containers>`
+  nor host it. You can find that list :ref:`here. <vetted-applications>`
 - You can request help building a Docker image if you are having trouble via our ticketing
   system.
 - Software that is used frequently is taken into consideration when creating RIS hosted
@@ -253,11 +253,11 @@ Why can't I connect to my noVNC image?
     - If your job lands on a node that has a job already using the port you are attempting to, you will not be able to connect.
     - You can attempt to launch your job on a new node, or you can change the port you're using and launch the job again.
 - The second reason this could be happening, is that some department based VPNs are not part of the trusted network that will allow this.
-    - Please see our :ref:`VPN information <compute-connect>` for which VPNs we recommend.
+    - Please see our ``VPN information`` for which VPNs we recommend.
 - If you wish to avoid dealing with ports for GUI based software, you can check out what software we have available through Open on Demand.
-    - `Open On Demand documentation`
+    - ``Open On Demand documentation``
 - You can also use port fowarding to get around the second reason for being unable to connect.
-    - `Port forwarding documentation`
+    - ``Port forwarding documentation``
 
 Software Debugging Policy
 -------------------------
@@ -267,6 +267,6 @@ abilities and time. With that being said, there may be times when we cannot
 solve an issue related to a specific piece of software or script that is not
 supported by RIS. In those cases, we will attempt to provide a solution to the
 problem, but we cannot guarantee that the solution will be successful. We
-recommend reading `this section`
+recommend reading ``this section``
 for more help debugging your software as well as for guidance on software
 development best practices.
