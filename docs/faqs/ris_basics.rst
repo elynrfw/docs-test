@@ -4,11 +4,8 @@ RIS Basics FAQ
 
 .. _`ris-faq`:
 
-About RIS
----------
-
 What is RIS?
-~~~~~~~~~~~~
+------------
 
 `RIS`_ is the Research Infrastructure Services team within Wash U IT. We are a
 young group, having been incorporated into Wash U IT in 2018. The RIS team
@@ -24,7 +21,7 @@ performance and high throughput computing, large scale data transfer, and some
 narrowly focused research applications.
 
 How do I contact RIS?
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 RIS uses the `RIS Service Desk`_ to interact with users. Each category of the
 Service Desk includes an "Ask a question" related to that service. This is not
@@ -34,18 +31,18 @@ have some linkage between our systems to make it easier for users to contact
 us.
 
 What are RIS Services?
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 RIS services are described in the `RIS Service Catalog`_.
 
 Who are RIS Services for?
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 RIS services are for Wash U faculty and staff, focused on the research mission
 of Wash U.
 
 How do I get started with RIS Services?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 It is assumed that users will be research faculty and staff and have Wash U
 WUSTL Key IDs, have access to Wash U IT Networks, and have access to a
@@ -57,7 +54,7 @@ Below is a guide on how to use the Service Desk to request new RIS services.
 Insert link to provisioning
 
 How do I get help with RIS Services?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 Getting help with RIS services generally falls into a few categories:
 
@@ -69,7 +66,7 @@ Each RIS Service has a section within the `RIS Service Desk`_ that contains
 request forms for these Request Types.
 
 Where can I find RIS Documentation?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 You are reading it! RIS service documentation lives at this Confluence site
 in two places:
@@ -80,15 +77,15 @@ in two places:
 .. _`wustl-keys`:
 
 Where can I get help with WUSTL Keys?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 https://it.wustl.edu/home/how-to/wustl-connect/
 
 What do you mean when you say product stages?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 RIS Product Launch Stages
-'''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Early Access**
 
