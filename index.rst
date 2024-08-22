@@ -14,4 +14,6 @@ you will find the documentation for using those services.
 
     docs/policies
     docs/faqs
+    docs/scientific-compute-platforms
+    docs/data-storage-platforms
     docs/software-and-applications
