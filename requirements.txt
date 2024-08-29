@@ -22,6 +22,9 @@ requests
 snowballstemmer
 sphinx-rtd-theme
 piccolo_theme
+sphinx_press_theme
+insegel
+sphinx_sizzle_theme
 sphinx-toolbox
 sphinxcontrib-applehelp
 sphinxcontrib-devhelp
