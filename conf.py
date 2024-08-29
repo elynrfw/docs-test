@@ -58,8 +58,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 #
 #html_theme = "sphinx_rtd_theme"
 #html_theme = "piccolo_theme"
-html_theme = "press"
-#html_theme = "insegel"
+#html_theme = "press"
+html_theme = "insegel"
 #html_theme = "sizzle"
 
 # Add any paths that contain custom static files (such as style sheets) here,
