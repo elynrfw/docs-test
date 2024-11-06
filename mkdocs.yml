@@ -1,8 +1,8 @@
 site_name: RIS User Documentation
 nav:
-  - Home: 'docs/index.md'
+  - Home: 'docs/index.html'
   - Other: 
-    - 'docs/usage.md'
-    - 'docs/api.md'
+    - 'docs/usage.html'
+    - 'docs/api.html'
 theme:
   name: mkdocs
